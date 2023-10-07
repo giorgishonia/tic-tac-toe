@@ -1,0 +1,46 @@
+body{
+    font-family: cursive;
+}
+h1{
+    text-align: center;
+}
+
+#cellContainer{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 270px;
+    margin: auto;
+}
+
+.cell{
+    border: 1px solid black;
+    width: 90px;
+    height: 90px;
+    box-shadow: 0 0 0 2px;
+    cursor: pointer;
+    color: black;
+    font-size: 45px;
+    line-height: 90px;
+    text-align: center;
+    background-color: white;
+}
+
+#statusText{
+    text-align: center;
+    color: black;
+}
+
+#restartBtn{
+    align-self: center;
+    padding: 10px;
+    background-color: white;
+    border: 3px solid black;
+    font-size: 15px;
+    font-family: cursive;
+}
+
+#gameContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
